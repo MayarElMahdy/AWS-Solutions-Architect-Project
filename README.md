@@ -14,9 +14,10 @@
 
 ## Solution Overview
 
-This project demonstrates how to deploy a secure, scalable, and highly available web application on AWS using EC2 instances. The architecture leverages key AWS services to ensure fault tolerance, load distribution, performance monitoring, and cost efficiency.
+This project demonstrates how to deploy a secure, scalable, and highly available web application on AWS using EC2 instances. The architecture includes an Application Load Balancer (ALB) to distribute incoming traffic and an Auto Scaling Group (ASG) to automatically adjust the number of EC2 instances based on demand. For persistent storage, Amazon RDS is used as a managed relational database, deployed in Multi-AZ mode for high availability and data durability. The infrastructure spans multiple Availability Zones and follows AWS best practices for reliability, performance, and cost optimization.
 
 ## Architecture Diagram
+
 ![AWS_Architecture_Scalable_App (1)](https://github.com/user-attachments/assets/a872b98e-dab2-4a26-835c-c97fa0e47d94)
 The diagram illustrates the infrastructure deployed across two Availability Zones with redundant components for high availability.
 
