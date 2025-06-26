@@ -17,9 +17,7 @@
 This project demonstrates how to deploy a secure, scalable, and highly available web application on AWS using EC2 instances. The architecture leverages key AWS services to ensure fault tolerance, load distribution, performance monitoring, and cost efficiency.
 
 ## Architecture Diagram
-
-![AWS Architecture Scalable App](https://github.com/user-attachments/assets/5a2a6581-1fd2-48f4-89ef-359a6f869273)
-
+![AWS_Architecture_Scalable_App (1)](https://github.com/user-attachments/assets/a872b98e-dab2-4a26-835c-c97fa0e47d94)
 The diagram illustrates the infrastructure deployed across two Availability Zones with redundant components for high availability.
 
 ## System Components
